@@ -6,9 +6,27 @@ Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulam
 
 Fark şu: **içeriği tükettiğin yer ile "yaptım" dediğin yer aynı ekran.** Bugün kullanıcı bir uygulamada şiirini okuyup başka bir uygulamada tik atmak zorunda. Bu geçiş odağı dağıtıyor.
 
+## Problem ve çıkış noktası
+
+Fikir kişisel deneyimden çıktı. Dört ayrı sorun var:
+
+- **Karar felci ve başlama zorluğu.** Nöroçeşitli zihinler klasik yapılacaklar veya alışkanlık listelerinde "nereden başlayacağımı bilemiyorum" noktasında takılıyor.
+- **Planlama tuzağı.** İş yapmak yerine sistem ve liste kurarak vakit kaybetme döngüsü.
+- **Çocuksulaştırılmış uygulamalar.** Piyasadaki alışkanlık araçları ya aşırı karmaşık ya da yetişkin estetiğinden uzak.
+- **Duolingo ilhamı.** Kısa sürüş, net seri takibi, düşük sürtünme. Aranan model bu.
+
 ## Kime
 
 Dikkat süresi kısa olan ve alışkanlık takibinde zorlanan kullanıcılar, özellikle DEHB'li bireyler. Bu kitle için uygulama değiştirmek en büyük engel.
+
+## Tasarım ilkeleri
+
+Hedef: düşük sürtünme, yüksek zihinsel doyum.
+
+- **Dışsal prefrontal korteks.** Karar yorgunluğu yaşatmadan kullanıcının önüne tek ve küratörlü bir seçenek koymak.
+- **Mikro eylemler.** "Bir kitap bitir" değil, "günde 2 dakikalık 1 şiir ya da 1 tablo".
+- **Yetişkin atölye estetiği.** Çizgi film maskotları yerine editoryal, sakin, iki boyutlu illüstratif bir çalışma masası atmosferi.
+- **Koleksiyon dürtüsü.** Alışkanlığı bir "görev" olmaktan çıkarıp "koleksiyon yapma zevkine" dönüştürmek.
 
 ## Nasıl çalışır
 

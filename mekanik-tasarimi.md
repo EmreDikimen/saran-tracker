@@ -8,7 +8,11 @@ Uygulamanın iki ana kolu var: **Günlük Ritim** ve **Büyük Resim**.
 
 Ekranın üst köşesinde en fazla 3 minimalist kahve fincanı durur. Kullanıcının kalan hakkını gösterir.
 
+**Çözdüğü problem:** İlk gün aşırı yüklenip (hiperfokus) tüm dopamini tüketme ve üçüncü gün bırakma riski.
+
 ### Harcama
+
+Fincan, bir **odak oturumu bileti** gibi çalışır.
 
 - Bir kategoriye odak oturumu başlatmak için girildiğinde **1 fincan** harcanır.
 - Oturum boyunca kullanıcı o kategoride dilediği kadar içerikle vakit geçirebilir.
@@ -24,6 +28,8 @@ Süre veya dakika kısıtı yok. Oturumu **sayfa hiyerarşisi** belirler. Kullan
 - Süre dolunca +1 fincan eklenir.
 - Sayı hâlâ 3'ün altındaysa bir sonraki 3 saatlik döngü otomatik başlar.
 - 3'e ulaşınca sayaç durur. İstifleme ve taşma yoktur.
+
+Üç saatlik aralık bilinçli seçildi: amaç gün içine yayılan doğal odak molaları yaratmak.
 
 ### Görsel durum
 
