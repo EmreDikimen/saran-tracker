@@ -33,7 +33,7 @@ Hedef: düşük sürtünme, yüksek zihinsel doyum.
 İki ana kol var, ikisi de [mekanik-tasarimi.md](mekanik-tasarimi.md) dosyasında anlatılıyor:
 
 1. **Günlük Ritim:** En fazla 3 kahve fincanı. Bir kategoriye girmek 1 fincan harcar, o oturumda kullanıcı istediği kadar içerikle vakit geçirebilir. Fincanlar 3 saatte bir yenilenir; hiç kalmayınca uygulama tamamen kapanır.
-2. **Büyük Resim:** Günün ilk tamamlanan içeriği, açılmakta olan bir tablonun rastgele bir parçasını açar. 100 parça bitince yeni tablo başlar.
+2. **Büyük Resim:** İçerik, 100'lük bir havuzdan rastgele gelir; seçimi kullanıcı yapmaz. Günün ilk tamamlanan içeriği, açılmakta olan bir tablonun rastgele bir parçasını açar. 100 parça bitince yeni tablo başlar.
 
 ## İçerik Kategorileri
 
@@ -67,5 +67,5 @@ Bu fikirler iptal değil, sonraya bırakıldı:
 
 ## Açık sorular
 
-- Herkes aynı günlük içeriği mi görecek, yoksa içerik kullanıcıya özel rastgele mi olacak?
 - Şiir ve müzik içerikleri için telif nasıl çözülecek?
+- Sunudaki "4 Mikro-Kreatif Modül" ile yukarıdaki altı kategori nasıl örtüşecek?

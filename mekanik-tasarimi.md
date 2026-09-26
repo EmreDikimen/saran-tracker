@@ -41,19 +41,24 @@ Süre veya dakika kısıtı yok. Oturumu **sayfa hiyerarşisi** belirler. Kullan
 
 Kapı tamamen kapanır, kullanıcı **arşive bile bakamaz**. Bu bilinçli bir DEHB frenidir; yoksa "arşivde kaybolup dopamin tüketme" tuzağına düşülür. Geri sayım beklenir.
 
-Ekran notu:
+Ekran notunun geri sayımı söylemesi gerekiyor. Taslak:
 
-> "Günün kahveleri bitti. Yeni parçalar ve yeni dizeler yarın sabah demlenecek."
+> "Fincanlar boş. Bir sonrakinin demlenmesine 02:14 var."
 
-*Not: Bu metin 3 saatlik yenilenmeyle çelişiyor, güncellenmesi gerekiyor.*
-
-**Neden:** İlk gün 30 içerik açıp hevesi tüketmeyi engellemek. Hedef, her gün bir iki yudum alıp çıkmak.
+*Eski metin ("yarın sabah demlenecek") günlük yenilenmeye göre yazılmıştı, 3 saatlik cooldown ile geçersiz kaldı. Nihai metin belirlenecek.*
 
 ---
 
-## 2. Büyük Resim (Puzzle)
+## 2. Büyük Resim (Sürpriz ve Koleksiyon Puzzle'ı)
 
 Her 100 günlük içerik döngüsünün arkasında gizli bir illüstrasyon ya da tablo vardır. Kaplumbağa Terbiyecisi, Yıldızlı Gece veya özel çizilmiş bir illüstrasyon olabilir.
+
+### İçerik havuzu
+
+- Her döngünün arkasında 100 içerikli bir havuz durur (örneğin 100 şiir).
+- Kullanıcıya her gün havuzdan **tamamen rastgele ve sürpriz** bir içerik gelir. Seçim kullanıcıya bırakılmaz.
+
+### Parça açılması
 
 - Kullanıcı **o günkü ilk içerik tüketimini** tamamladığında 100 parçalık görselin rastgele bir karosu açılır, yerine oturur ve renklenir.
 - Parça **yalnızca kilitli parçalar arasından** seçilir. Böylece 100 günde tamamlanma garanti edilir.

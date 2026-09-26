@@ -20,7 +20,7 @@ Dikkat süresi kısa olan ve alışkanlık takibinde zorlanan kullanıcılar, ö
 
 **1. Günlük Ritim.** Ekranın üst köşesinde en fazla 3 kahve fincanı durur. Bir kategoriye girmek 1 fincan harcar; o oturum boyunca kullanıcı istediği kadar içerikle vakit geçirebilir. Ana sayfaya dönünce oturum kapanır. Fincanlar 3 saatte bir yenilenir, hiç kalmayınca uygulama tamamen kapanır. Amaç, ilk gün hevesi tüketmeyi engellemek.
 
-**2. Büyük Resim.** Günün ilk tamamlanan içeriği, sisli bir silüet halinde duran bir tablonun rastgele bir parçasını açar. 100 parça bitince tablo tamamlanır ve yenisi başlar. Açılan parçalar hiçbir koşulda geri alınmaz.
+**2. Büyük Resim.** İçerik 100'lük bir havuzdan rastgele gelir. Günün ilk tamamlanan içeriği, sisli bir silüet halinde duran bir tablonun rastgele bir parçasını açar. Parçalar yalnızca kilitli olanlar arasından seçildiği için tablo 100 günde kesin tamamlanır. Açılan parçalar hiçbir koşulda geri alınmaz.
 
 Ayrıntılar: [mekanik-tasarimi.md](mekanik-tasarimi.md)
 
