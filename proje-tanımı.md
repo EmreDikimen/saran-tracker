@@ -2,7 +2,7 @@
 
 ## Fikir
 
-Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulama. Kullanıcı günde 90 saniye ile 2 dakika arasında bir içerik tüketir: bir şiir, bir tablo, bir film karesi.
+Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulama. Kullanıcı bir kategoriye girer ve iki dakikalık bir içerikle vakit geçirir: bir şiir, bir tablo, bir film karesi. Oturum açıkken isterse aynı kategoride başka içeriklere de bakabilir.
 
 Fark şu: **içeriği tükettiğin yer ile "yaptım" dediğin yer aynı ekran.** Bugün kullanıcı bir uygulamada şiirini okuyup başka bir uygulamada tik atmak zorunda. Bu geçiş odağı dağıtıyor.
 
