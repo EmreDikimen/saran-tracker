@@ -2,7 +2,7 @@
 
 > Çalışma adı. Ürünün gerçek ismi henüz belirlenmedi.
 
-Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir mobil uygulama. Kullanıcı günde 90 saniye ile 2 dakika arasında bir içerik tüketir: bir şiir, bir tablo, bir film karesi.
+Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir mobil uygulama. Kullanıcı günde iki dakikalık bir içerikle vakit geçirir: bir şiir, bir tablo, bir şarkı, bir kelime.
 
 ## Problem
 
@@ -24,11 +24,11 @@ Dikkat süresi kısa olan ve alışkanlık takibinde zorlanan kullanıcılar, ö
 
 Ayrıntılar: [mekanik-tasarimi.md](mekanik-tasarimi.md)
 
-## İçerik kategorileri
+## Çekirdek deneyim: 4 mikro-kreatif modül
 
-Şiir, tablo, animasyon, film karesi, müzik, günün kelimesi.
+Günün Şiiri (daktilo), Günün Sanat Eseri (boya tüpü), Günün Şarkısı (pikap), Günün Kelimesi (parşömen).
 
-MVP'de hepsi olmayacak. Telifi en temiz olanlarla başlanacak: tablo, kamu malı şiir ve günün kelimesi.
+Şarkı Spotify'a derin bağlantıyla verildiği için telif riski yok; kelime ve tablo kamu malı kaynaklardan çözülebiliyor. Açık kalan tek kalem şiir.
 
 ## Durum
 

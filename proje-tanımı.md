@@ -2,7 +2,7 @@
 
 ## Fikir
 
-Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulama. Kullanıcı bir kategoriye girer ve iki dakikalık bir içerikle vakit geçirir: bir şiir, bir tablo, bir film karesi. Oturum açıkken isterse aynı kategoride başka içeriklere de bakabilir.
+Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulama. Kullanıcı bir kategoriye girer ve iki dakikalık bir içerikle vakit geçirir: bir şiir, bir tablo, bir şarkı, bir kelime. Oturum açıkken isterse aynı kategoride başka içeriklere de bakabilir.
 
 Fark şu: **içeriği tükettiğin yer ile "yaptım" dediğin yer aynı ekran.** Bugün kullanıcı bir uygulamada şiirini okuyup başka bir uygulamada tik atmak zorunda. Bu geçiş odağı dağıtıyor.
 
@@ -35,18 +35,16 @@ Hedef: düşük sürtünme, yüksek zihinsel doyum.
 1. **Günlük Ritim:** En fazla 3 kahve fincanı. Bir kategoriye girmek 1 fincan harcar, o oturumda kullanıcı istediği kadar içerikle vakit geçirebilir. Fincanlar 3 saatte bir yenilenir; hiç kalmayınca uygulama tamamen kapanır.
 2. **Büyük Resim:** İçerik, 100'lük bir havuzdan rastgele gelir; seçimi kullanıcı yapmaz. Günün ilk tamamlanan içeriği, açılmakta olan bir tablonun rastgele bir parçasını açar. 100 parça bitince yeni tablo başlar.
 
-## İçerik Kategorileri
+## Çekirdek Deneyim: 4 Mikro-Kreatif Modül
 
-| Kategori | Günlük mikro içerik |
-| --- | --- |
-| Şiir | Kısa bir şiir veya vurucu bir dize |
-| Tablo | Bir tablo görseli ve iki cümlelik analiz |
-| Animasyon | İkonik bir sahne karesi ve renk/kompozisyon notu |
-| Film Karesi | Kült bir sahne ve sinematografi detayı |
-| Müzik | 30 saniyelik önizleme ve parçanın mini hikâyesi |
-| Günün Kelimesi | Çevrilemeyen veya felsefi bir kavram |
+| Modül | Obje | Günlük mikro içerik |
+| --- | --- | --- |
+| Günün Şiiri | Daktilo | 2 dakikalık editoryal şiir veya kesit |
+| Günün Sanat Eseri | Boya Tüpü | 1 tablo ve 2-3 cümlelik hap bağlam |
+| Günün Şarkısı | Pikap | Spotify derin bağlantılı günlük keşif parçası |
+| Günün Kelimesi | Parşömen | Dillerden çevrilemeyen nadir duygular |
 
-MVP'de tüm kategoriler olmayacak. Telifi en temiz olanlarla başlanacak: tablo, kamu malı şiir ve günün kelimesi.
+Telif durumu: şarkı Spotify'a derin bağlantı verildiği için sıfır riskli, kelime ve tablo kamu malı kaynaklardan çözülebilir. **Açık kalan tek kalem şiir.**
 
 ## Ekranlar
 
@@ -60,12 +58,12 @@ MVP'de tüm kategoriler olmayacak. Telifi en temiz olanlarla başlanacak: tablo,
 
 Bu fikirler iptal değil, sonraya bırakıldı:
 
-- **Sanat Rafı:** Kategori başına seviye atlayan ikonik objeler. Puzzle ile aynı işi yaptığı için şimdilik dışarıda.
+- **Animasyon ve Film Karesi kategorileri.** Çekirdek deneyim dört modüle indirildi. Bu ikisi hem telif açısından en riskli kalemlerdi hem de kapsamı şişiriyordu.
+- **Sanat Rafı:** Kategori başına seviye atlayan ikonik objeler. Puzzle ile aynı işi yaptığı için şimdilik dışarıda. Objelerin kendisi (daktilo, boya tüpü, pikap, parşömen) modül ikonu olarak yaşıyor.
 - **Arkadaş serisi ve profil ziyareti.** Önce tek kişilik deneyim oturmalı.
 - **Yıl sonu özeti (Wrapped).** İçerik etiketleme altyapısı kurulduktan sonra.
-- **Ajanda ve koçluk modülü.** Şu an test ve kuluçka aşamasında. İlk odak "Mikro Kreatif Tüketim & Atölye Masası". İleride maskot üzerinden sohbet ya da dahili bir dijital ajanda modülü olarak eklenecek.
+- **ADHD Koçu (ajanda ve koçluk modülü).** Defter fotoğrafından plan okuma, dört süzgeçli koçluk motoru ve geri bildirim döngüsü tasarlandı. Şu an odakta değil, sonra ele alınacak.
 
 ## Açık sorular
 
-- Şiir ve müzik içerikleri için telif nasıl çözülecek?
-- Sunudaki "4 Mikro-Kreatif Modül" ile yukarıdaki altı kategori nasıl örtüşecek?
+- Şiir içeriği için telif nasıl çözülecek?
