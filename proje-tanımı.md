@@ -4,11 +4,13 @@
 
 Kültür ve sanat alanında günlük mikro alışkanlık kazandıran bir uygulama. Kullanıcı bir kategoriye girer ve iki dakikalık bir içerikle vakit geçirir: bir şiir, bir tablo, bir şarkı, bir kelime. Oturum açıkken isterse aynı kategoride başka içeriklere de bakabilir.
 
-Fark şu: **içeriği tükettiğin yer ile "yaptım" dediğin yer aynı ekran.** Bugün kullanıcı bir uygulamada şiirini okuyup başka bir uygulamada tik atmak zorunda. Bu geçiş odağı dağıtıyor.
+Fark şu: **içeriği tükettiğin yer ile "yaptım" dediğin yer aynı ekran.**
 
 ## Problem ve çıkış noktası
 
-Fikir kişisel deneyimden çıktı. Dört ayrı sorun var:
+Alışkanlık takip uygulamaları genellikle alışkanlığın kendisinden daha fazla çaba gerektirir. İçeriği ayrı bir yerde tüketip, başka bir uygulamaya gidip "tik atmak" dikkat dağınıklığını tetikler ve döngüyü kırar.
+
+Fikir kişisel deneyimden çıktı. Bunun altında dört ayrı sorun var:
 
 - **Karar felci ve başlama zorluğu.** Nöroçeşitli zihinler klasik yapılacaklar veya alışkanlık listelerinde "nereden başlayacağımı bilemiyorum" noktasında takılıyor.
 - **Planlama tuzağı.** İş yapmak yerine sistem ve liste kurarak vakit kaybetme döngüsü.
@@ -32,8 +34,8 @@ Hedef: düşük sürtünme, yüksek zihinsel doyum.
 
 İki ana kol var, ikisi de [mekanik-tasarimi.md](mekanik-tasarimi.md) dosyasında anlatılıyor:
 
-1. **Günlük Ritim:** En fazla 3 kahve fincanı. Bir kategoriye girmek 1 fincan harcar, o oturumda kullanıcı istediği kadar içerikle vakit geçirebilir. Fincanlar 3 saatte bir yenilenir; hiç kalmayınca uygulama tamamen kapanır.
-2. **Büyük Resim:** İçerik, 100'lük bir havuzdan rastgele gelir; seçimi kullanıcı yapmaz. Günün ilk tamamlanan içeriği, açılmakta olan bir tablonun rastgele bir parçasını açar. 100 parça bitince yeni tablo başlar.
+1. **Günlük Ritim:** Kategori sayısı kadar kahve fincanı. Bir kategoriye girmek 1 fincan harcar, o oturumda kullanıcı istediği kadar içerikle vakit geçirebilir. Fincanlar 3 saatte bir yenilenir; hiç kalmayınca uygulama tamamen kapanır.
+2. **Büyük Resim:** Her kategorinin kendi 100'lük içerik havuzu ve kendi 100 parçalık tablosu var. İçerik havuzdan rastgele gelir, seçimi kullanıcı yapmaz. Tamamlanan her kategori, o kategorinin tablosundan bir parça açar. 100 parça bitince o kategoride yeni tablo başlar.
 
 ## Çekirdek Deneyim: 4 Mikro-Kreatif Modül
 
@@ -48,7 +50,7 @@ Telif durumu: şarkı Spotify'a derin bağlantı verildiği için sıfır riskli
 
 ## Ekranlar
 
-**1. Ana ekran (atölye masası / mantar pano).** Ortada yarı açılmış tablo, üstte kalan fincanlar ve seri sayısı. Altta keşif butonu. Bu ekrana dönmek, açık olan odak oturumunu kapatır.
+**1. Ana ekran (atölye masası / mantar pano).** Ortada aktif kategorinin yarı açılmış tablosu. Masanın üzerindeki objelere (daktilo, boya tüpü, pikap, parşömen) dokunarak kategori değiştirilir, tablo da onunla değişir. Üstte kalan fincanlar ve aktif kategorinin serisi. Altta keşif butonu. Bu ekrana dönmek, açık olan odak oturumunu kapatır.
 
 **2. Tüketim ekranı (Zen modu).** Menüler gizlenir. Eser, iki cümlelik kürasyon notu ve künye. Altında "Okudum / İnceledim" butonu. Basınca hafif bir titreşim gelir; günün ilk içeriğiyse ekran tabloya döner ve yeni parça yerine oturur.
 
@@ -59,7 +61,7 @@ Telif durumu: şarkı Spotify'a derin bağlantı verildiği için sıfır riskli
 Bu fikirler iptal değil, sonraya bırakıldı:
 
 - **Animasyon ve Film Karesi kategorileri.** Çekirdek deneyim dört modüle indirildi. Bu ikisi hem telif açısından en riskli kalemlerdi hem de kapsamı şişiriyordu.
-- **Sanat Rafı:** Kategori başına seviye atlayan ikonik objeler. Puzzle ile aynı işi yaptığı için şimdilik dışarıda. Objelerin kendisi (daktilo, boya tüpü, pikap, parşömen) modül ikonu olarak yaşıyor.
+- **Sanat Rafı'nın seviye atlama kısmı.** Objelerin seriye göre tier atlaması şimdilik yok; ilerlemeyi puzzle gösteriyor. Objelerin kendisi (daktilo, boya tüpü, pikap, parşömen) atölye masasında durup kategori geçişini sağlıyor.
 - **Arkadaş serisi ve profil ziyareti.** Önce tek kişilik deneyim oturmalı.
 - **Yıl sonu özeti (Wrapped).** İçerik etiketleme altyapısı kurulduktan sonra.
 - **ADHD Koçu (ajanda ve koçluk modülü).** Defter fotoğrafından plan okuma, dört süzgeçli koçluk motoru ve geri bildirim döngüsü tasarlandı. Şu an odakta değil, sonra ele alınacak.
