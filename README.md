@@ -30,7 +30,23 @@ Günün Şiiri (daktilo), Günün Sanat Eseri (boya tüpü), Günün Şarkısı 
 
 ## Durum
 
-Fikir ve tasarım aşaması. Henüz kod yok.
+İlk çalışan prototip [mobile/](mobile/) altında (Expo, React Native). Masa, oturum, ödül animasyonu, fincan kilidi ve arşiv çalışıyor. UI ve kütüphane kararlarının gerekçeleri: [ui-arastirmasi.md](ui-arastirmasi.md).
+
+## Prototipi telefonda açma
+
+Mac ile telefon aynı Wi-Fi'da olmalı.
+
+```bash
+cd mobile
+npm install          # ilk seferde
+npx expo start --lan --port 8085
+```
+
+- **Uygulama olarak (önerilen):** Telefona **Expo Go**'yu kur (App Store / Play Store) ve terminaldeki QR kodu okut. Titreşim ve gerçek animasyonlar burada.
+- **Tarayıcıda:** Telefondan `http://<Mac'in IP'si>:8085` adresini aç. Mac'in IP'sini `ipconfig getifaddr en0` gösterir.
+- Sağ alttaki **dev** düğmesi zamanı ileri sarar (+3 saat ile fincan dolar), tabloyu doldurur ya da her şeyi sıfırlar.
+
+Telefon bağlanamazsa ağ cihazlar arası bağlantıyı engelliyor olabilir (okul, kampüs ve misafir ağlarında sık görülür). Bu durumda `npx expo start --tunnel` komutunu dene.
 
 ## Dokümanlar
 
@@ -38,10 +54,13 @@ Fikir ve tasarım aşaması. Henüz kod yok.
 | --- | --- |
 | [proje-tanımı.md](proje-tanımı.md) | Ürünün genel tanımı, kategoriler, ekranlar, sonraya bırakılanlar |
 | [mekanik-tasarimi.md](mekanik-tasarimi.md) | İki ana mekaniğin kuralları ve ekran akışı |
+| [ui-arastirmasi.md](ui-arastirmasi.md) | DEHB için UI ilkeleri, tipografi, renk ve kütüphane seçimi |
 
 ## Sıradaki adımlar
 
 1. DEHB'li kullanıcılarla görüşerek temel varsayımı doğrulamak
 2. İlk 100 şiirlik havuzu kamu malı kaynaklardan derlemek
 3. Fincan, oturum ve puzzle arasındaki sayısal ilişkiyi netleştirmek
-4. Ana ekran ve tüketim ekranı için tasarım prototipi
+4. ~~Ana ekran ve tüketim ekranı için tasarım prototipi~~ (mobile/ altında)
+5. Prototipteki şiir metinlerini basılı kaynaktan doğrulamak, şarkılar için gerçek Spotify parça linklerini eklemek
+6. v2: Skia ile gerçek bulanık sis, Rive ile fincan ve obje animasyonları
