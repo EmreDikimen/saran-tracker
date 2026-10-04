@@ -66,6 +66,8 @@ export const fonts = {
   serifItalic: 'Literata_400Regular_Italic',
   serifMedium: 'Literata_500Medium',
   serifSemi: 'Literata_600SemiBold',
+  /** Objelerin üzerindeki seri sayıları: yuvarlak, elle yapılmış hissi veren serif. */
+  number: 'Fraunces_600SemiBold',
 };
 
 export const space = { xs: 4, s: 8, m: 16, l: 24, xl: 32, xxl: 48 };

@@ -3,6 +3,7 @@ import {
   AtkinsonHyperlegibleNext_500Medium,
   AtkinsonHyperlegibleNext_700Bold,
 } from '@expo-google-fonts/atkinson-hyperlegible-next';
+import { Fraunces_600SemiBold } from '@expo-google-fonts/fraunces';
 import {
   Literata_400Regular,
   Literata_400Regular_Italic,
@@ -31,6 +32,7 @@ export default function RootLayout() {
     Literata_400Regular_Italic,
     Literata_500Medium,
     Literata_600SemiBold,
+    Fraunces_600SemiBold,
   });
 
   // Kayıtlı durum (fincanlar, açık oturum) yüklenmeden ekran çizilmez; yoksa bir an dolu fincan görünür.

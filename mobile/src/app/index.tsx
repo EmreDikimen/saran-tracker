@@ -9,7 +9,6 @@ import { CupRow } from '@/components/CupRow';
 import { DeskObject } from '@/components/DeskObject';
 import { CupIcon } from '@/components/Illustrations';
 import { PuzzleBoard } from '@/components/PuzzleBoard';
-import { StreakBadge } from '@/components/StreakBadge';
 import { boardPainting } from '@/content/artworks';
 import { CATEGORIES, CATEGORY_BY_ID } from '@/content/categories';
 import { DevPanel } from '@/dev/DevPanel';
@@ -48,7 +47,7 @@ export default function Desk() {
   const doneToday = streaks[active].lastDay === today;
   const contentWidth = Math.min(width, MAX_WIDTH) - 2 * space.l;
   // Tablo, altındaki masa ve tek buton kaydırmadan görünecek kadar büyür.
-  const boardSize = Math.max(180, Math.min(contentWidth, height - 470));
+  const boardSize = Math.max(180, Math.min(contentWidth, height - 490));
 
   const begin = () => {
     if (startSession(active)) router.push({ pathname: '/session/[category]', params: { category: active } });
@@ -60,15 +59,9 @@ export default function Desk() {
         <View style={[styles.column, { width: contentWidth }]}>
           <View style={styles.topBar}>
             <CupRow cups={cups} now={now} />
-            <View style={styles.topRight}>
-              <StreakBadge count={currentStreak(streaks[active], today)} color={accent} />
-              <Pressable
-                accessibilityRole="button"
-                onPress={() => router.push('/archive')}
-                hitSlop={10}>
-                <Text style={[styles.link, { color: c.inkSoft }]}>Arşiv</Text>
-              </Pressable>
-            </View>
+            <Pressable accessibilityRole="button" onPress={() => router.push('/archive')} hitSlop={10}>
+              <Text style={[styles.link, { color: c.inkSoft }]}>Arşiv</Text>
+            </Pressable>
           </View>
 
           <View style={styles.heading}>
@@ -89,6 +82,7 @@ export default function Desk() {
                 category={cat}
                 selected={cat.id === active}
                 done={streaks[cat.id].lastDay === today}
+                streak={currentStreak(streaks[cat.id], today)}
                 onPress={() => setActive(cat.id)}
               />
             ))}
@@ -137,8 +131,7 @@ const styles = StyleSheet.create({
   center: { alignItems: 'center', justifyContent: 'center' },
   scroll: { flexGrow: 1, alignItems: 'center', paddingBottom: space.xxl },
   column: { flex: 1, paddingTop: space.m },
-  topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' },
-  topRight: { flexDirection: 'row', alignItems: 'center', gap: space.m },
+  topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   link: { fontFamily: fonts.uiMedium, fontSize: 15 },
   heading: { marginTop: space.m, marginBottom: space.m, alignItems: 'center' },
   kicker: { fontFamily: fonts.uiBold, fontSize: 13, letterSpacing: 2 },
