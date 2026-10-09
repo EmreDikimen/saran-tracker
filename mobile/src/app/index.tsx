@@ -59,9 +59,14 @@ export default function Desk() {
         <View style={[styles.column, { width: contentWidth }]}>
           <View style={styles.topBar}>
             <CupRow cups={cups} now={now} />
-            <Pressable accessibilityRole="button" onPress={() => router.push('/archive')} hitSlop={10}>
-              <Text style={[styles.link, { color: c.inkSoft }]}>Arşiv</Text>
-            </Pressable>
+            <View style={styles.links}>
+              <Pressable accessibilityRole="button" onPress={() => router.push('/siirler')} hitSlop={10}>
+                <Text style={[styles.link, { color: c.inkSoft }]}>Şiirler</Text>
+              </Pressable>
+              <Pressable accessibilityRole="button" onPress={() => router.push('/archive')} hitSlop={10}>
+                <Text style={[styles.link, { color: c.inkSoft }]}>Arşiv</Text>
+              </Pressable>
+            </View>
           </View>
 
           <View style={styles.heading}>
@@ -132,6 +137,7 @@ const styles = StyleSheet.create({
   scroll: { flexGrow: 1, alignItems: 'center', paddingBottom: space.xxl },
   column: { flex: 1, paddingTop: space.m },
   topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  links: { flexDirection: 'row', gap: space.l },
   link: { fontFamily: fonts.uiMedium, fontSize: 15 },
   heading: { marginTop: space.m, marginBottom: space.m, alignItems: 'center' },
   kicker: { fontFamily: fonts.uiBold, fontSize: 13, letterSpacing: 2 },
