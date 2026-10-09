@@ -1,44 +1,22 @@
-import Svg, { Circle, Ellipse, G, Line, Path, Rect } from 'react-native-svg';
+import { Image } from 'expo-image';
+import Svg, { Circle, Ellipse, G, Rect } from 'react-native-svg';
 
-export function CupIcon({
-  full,
-  size = 30,
-  color,
-  faint,
-  coffee,
-}: {
-  full: boolean;
-  size?: number;
-  color: string;
-  faint: string;
-  coffee: string;
-}) {
-  const stroke = full ? color : faint;
+const CUP_FULL = require('@/assets/objects/cup_full.png');
+const CUP_EMPTY = require('@/assets/objects/cup_empty.png');
+
+/**
+ * Kahve fincanı (tasarim/coffee_icon.jpeg). Dolu fincan latteli çizimin kendisi;
+ * boşunun kahvesi alınmış ve soluk durur, 3 saatte bir yeniden dolar.
+ */
+export function CupIcon({ full, size = 30 }: { full: boolean; size?: number }) {
   return (
-    <Svg width={size} height={size} viewBox="0 0 32 32">
-      {full && (
-        <G stroke={stroke} strokeWidth={1.4} strokeLinecap="round" fill="none" opacity={0.7}>
-          <Path d="M12 10c-1.6-1.6 1.6-2.6 0-4.4" />
-          <Path d="M17 10c-1.6-1.6 1.6-2.6 0-4.4" />
-        </G>
-      )}
-      <Path
-        d="M7 13h16v5a8 8 0 0 1-8 8a8 8 0 0 1-8-8z"
-        fill={full ? coffee : 'none'}
-        stroke={stroke}
-        strokeWidth={1.6}
-        strokeLinejoin="round"
-        strokeDasharray={full ? undefined : '2.5 2'}
-      />
-      <Path
-        d="M23 15h1.6a3 3 0 0 1 0 6H22.6"
-        fill="none"
-        stroke={stroke}
-        strokeWidth={1.6}
-        strokeLinecap="round"
-      />
-      <Line x1={5} y1={28.5} x2={27} y2={28.5} stroke={stroke} strokeWidth={1.6} strokeLinecap="round" />
-    </Svg>
+    <Image
+      source={full ? CUP_FULL : CUP_EMPTY}
+      style={{ width: size, height: size, opacity: full ? 1 : 0.55 }}
+      contentFit="contain"
+      transition={250}
+      accessibilityIgnoresInvertColors
+    />
   );
 }
 

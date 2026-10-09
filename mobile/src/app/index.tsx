@@ -116,7 +116,7 @@ function ClosedDoor({ now }: { now: number }) {
       <Animated.View entering={FadeIn.duration(500)} style={styles.closed}>
         <View style={styles.bigCups}>
           {Array.from({ length: cups.capacity }, (_, i) => (
-            <CupIcon key={i} full={false} size={44} color={c.ink} faint={c.inkFaint} coffee={c.coffee} />
+            <CupIcon key={i} full={false} size={52} />
           ))}
         </View>
         <Text style={[styles.closedTitle, { color: c.ink }]}>Fincanlar boş.</Text>

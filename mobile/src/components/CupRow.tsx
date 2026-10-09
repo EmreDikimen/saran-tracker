@@ -22,7 +22,7 @@ export function CupRow({ cups, now, size = 30 }: { cups: Cups; now: number; size
         const refilling = i === settled.count && left !== null;
         return (
           <View key={i} style={styles.cup}>
-            <CupIcon full={full} size={size} color={c.ink} faint={c.inkFaint} coffee={c.coffee} />
+            <CupIcon full={full} size={size} />
             <Text style={[styles.timer, { color: c.inkSoft, opacity: refilling ? 1 : 0 }]}>
               {refilling ? formatCountdown(left) : '00:00'}
             </Text>

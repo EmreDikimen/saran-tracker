@@ -14,8 +14,6 @@ type Palette = {
   /** Kilitli karoların sisi. */
   fog: string;
   glow: string;
-  /** Dolu fincan. */
-  coffee: string;
   accent: Record<CategoryId, string>;
   accentSoft: Record<CategoryId, string>;
 };
@@ -30,7 +28,6 @@ const light: Palette = {
   line: '#D9CFBE',
   fog: '#E7DFD0',
   glow: '#F2C66D',
-  coffee: '#7A5234',
   accent: { siir: '#34507A', sanat: '#A5503A', sarki: '#5E6B3A', kelime: '#9A7420' },
   accentSoft: { siir: '#DCE2EC', sanat: '#F0DDD5', sarki: '#E1E4D3', kelime: '#F1E5C6' },
 };
@@ -45,7 +42,6 @@ const dark: Palette = {
   line: '#3D352C',
   fog: '#2A241E',
   glow: '#E8B75A',
-  coffee: '#C9976A',
   accent: { siir: '#8FA8CF', sanat: '#D98A73', sarki: '#A9B77E', kelime: '#D9B25C' },
   accentSoft: { siir: '#2C3340', sanat: '#3E2C25', sarki: '#30331F', kelime: '#3B3220' },
 };
