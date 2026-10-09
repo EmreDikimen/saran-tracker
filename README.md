@@ -30,7 +30,7 @@ Günün Şiiri (daktilo), Günün Sanat Eseri (boya tüpü), Günün Şarkısı 
 
 ## Durum
 
-İlk çalışan prototip [mobile/](mobile/) altında (Expo, React Native). Masa, oturum, ödül animasyonu, fincan kilidi ve arşiv çalışıyor. UI ve kütüphane kararlarının gerekçeleri: [ui-arastirmasi.md](ui-arastirmasi.md).
+İlk çalışan prototip [mobile/](mobile/) altında (Expo, React Native). Masa, oturum, ödül animasyonu, fincan kilidi ve arşiv çalışıyor. Ayrıca `/siirler` altında şairine göre gezilen 500 şiirlik kamu malı arşiv var ([veri hattı](veri-toplama/siirler/README.md)). UI ve kütüphane kararlarının gerekçeleri: [ui-arastirmasi.md](ui-arastirmasi.md).
 
 ## Prototipi telefonda açma
 
